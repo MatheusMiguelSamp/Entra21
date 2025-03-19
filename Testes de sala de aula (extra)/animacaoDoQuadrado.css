@@ -1,0 +1,56 @@
+.quadrado {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(0, 42, 255);
+    outline: 5px solid red;
+    animation-name: quadradogiratorio;
+    animation-duration: 10s;
+    margin: 100px;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes quadradogiratorio {
+    0% {
+        background-color: transparent blue;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        width: 25px;
+        height: 25px;
+        outline: 25px solid red;
+        left: 400px;
+        top: 0px;
+        transform: rotate(7200deg);
+        border-radius: 0%;
+        transition: 2s ease;
+    }
+    
+    70%{
+        border-radius: 0%;
+    }
+
+    80% {
+        border-radius: 20%;
+    }
+    85% {
+        border-radius: 24%;
+    }
+    90% {
+        border-radius: 40%;
+    }
+
+    100% {
+        width: 0px;
+        height: 0px;
+        outline: 40px solid rgb(191, 0, 255);
+        left: 0px;
+        top: 0px;
+        transform: rotate(-2880deg);
+        border-radius: 50%;
+    }
+}

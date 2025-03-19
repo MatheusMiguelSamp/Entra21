@@ -1,0 +1,51 @@
+li > a{
+    text-decoration: none;
+}
+
+.semPonto{
+    list-style-type: none;
+}
+
+.background{
+    background-color: aqua;
+}
+
+body{
+    background-color: #fffff7;
+}
+
+.navBar{
+    display: flex;
+    background-color: aqua;
+}
+.search-container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    padding: 5px;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.paraOCentro{
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgb(1, 252, 93), -5px -5px 10px rgb(149, 147, 130);
+}
+
+body{
+    text-align: center;
+}
